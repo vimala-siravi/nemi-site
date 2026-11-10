@@ -83,6 +83,7 @@ h1 em { font-style: normal; color: var(--berry); }
 .faq { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .faq div { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 20px 22px; }
 .faq h3 { font-size: 18px; margin: 0 0 6px; }
+.faq div:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .faq p { margin: 0; color: var(--muted); font-size: 15px; }
 
 footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; padding: 28px 0 40px; border-top: 1px solid var(--border); font-size: 15px; color: var(--muted); }
